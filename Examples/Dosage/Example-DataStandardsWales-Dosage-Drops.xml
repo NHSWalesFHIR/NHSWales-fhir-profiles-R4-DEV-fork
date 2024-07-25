@@ -1,0 +1,40 @@
+<dosage>
+    <text value="1 drop in each eye once daily in the evening." />
+    <timing>
+        <repeat>
+		    <frequency value="1" />
+            <period value="1" />
+            <periodUnit value="d" />
+		    <when value="EVE" />  
+        </repeat>
+    </timing>
+    <site>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="362508001" />
+            <display value="Both eyes, entire" />
+        </coding>
+    </site>
+	<route> 
+        <coding> 
+            <system value="http://snomed.info/sct"/> 
+            <code value="54485002"/> 
+            <display value="Ophthalmic route (qualifier value)"/> 
+        </coding> 
+    </route> 
+	<method>
+        <coding>
+            <system value="http://snomed.info/sct"/> 
+            <code value="421538008"/> 
+            <display value="Instill - dosing instruction imperative (qualifier value)"/>
+        </coding>
+    </method>
+	<doseAndRate>
+		<doseQuantity> 
+            <value value="1"/> 
+            <unit value="drops"/> 
+            <system value="http://snomed.info/sct"/> 
+            <code value="426684005"/>  
+        </doseQuantity>  
+	</doseAndRate>
+</dosage>

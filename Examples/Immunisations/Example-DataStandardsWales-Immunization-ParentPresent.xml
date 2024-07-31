@@ -1,0 +1,32 @@
+<Immunization>
+	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ParentPresent"> 
+		<valueBoolean value="true" />
+	</extension>
+	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
+		<valueCodeableConcept>
+			<Coding>
+				<system value="http://snomed.info/sct" />
+				<code value="720540002" />
+				<display value= "Administration of second dose of meningitis B vaccine" />
+			</Coding>
+		</valueCodeableConcept>
+	</extension>
+	<status value="completed" />
+	<vaccineCode>
+		<coding>
+			<system value="https://dmd.nhs.uk" />
+			<code value="37430611000001107" />
+			<display value="Bexsero vaccine suspension for injection 0.5ml pre-filled syringes (CST Pharma Ltd) (product)" />
+		</coding>
+	</vaccineCode>
+	<patient>
+		<reference value="Patient/Example-DataStandardsWales-BabyPatient" />
+		<display value="BABY, Jake (NHS:9912003448)" />
+	</patient>
+	<encounter>
+		<reference value="Encounter/Example-DataStandardsWales-GPAppointment" />
+	</encounter>
+	<occurrenceDateTime value="2024-07-29" />
+	<lotNumber value="ABXB40AA" />
+	<expirationDate value="2022-07" />
+</Immunization>

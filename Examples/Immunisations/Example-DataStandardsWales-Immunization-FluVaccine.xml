@@ -1,0 +1,67 @@
+<Immunization>
+    <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
+		<valueCodeableConcept>
+			<Coding>
+				<system value="http://snomed.info/sct" />
+				<code value="86198006" />
+				<display value= "Administration of influenza vaccine" />
+			</Coding>
+		</valueCodeableConcept>
+	</extension>
+	<status value="completed" />
+	<vaccineCode>
+		<coding>
+			<system value="https://dmd.nhs.uk" />
+			<code value="10133911000001103" />
+			<display value="Influenza (split virion, inactivated) vaccine suspension for injection 0.5ml pre-filled syringes (A A H Pharmaceuticals Ltd) (product)" />
+		</coding>
+	</vaccineCode>
+	<patient>
+		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		<display value="JONES, Alice (NHS:9912003444)" />
+	</patient>
+	<occurrenceDateTime value="2024-07-10" />
+	<location>
+		<reference value="Location/Example-DataStandardsWales-Location-CadogWard" />
+		<display value="Cadog Ward (Glangwili General Hospital)" />
+	</location>
+	<site>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<code value="37622008" />
+			<display value="Deltoid region structure (body structure)" />
+		</coding>
+	</site>
+	<route>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<code value="78421000" />
+			<display value="Intramuscular" />
+		</coding>
+	</route>
+	<doseQuantity>
+		<value value="0.5" />
+		<unit value="milliliter" />
+		<system value="http://unitsofmeasure.org" />
+		<code value="mL" />
+	</doseQuantity>
+	<performer>
+		<function>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/v2-0443" />
+				<code value="AP" />
+				<display value="Administering Provider" />
+			</coding>
+		</function>
+		<actor>
+			<reference value="Practitioner/Example-DataStandardsWales-Practitioner-PrescribingNurse" /> 
+		</actor>
+	</performer>
+	<reasonCode>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<code value="171279008" />
+			<display value="Immunisation due" />
+		</coding>
+	</reasonCode>
+</Immunization>

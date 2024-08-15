@@ -30,6 +30,7 @@
 			<system value="http://snomed.info/sct" />
 			<code value="37622008" />
 			<display value="Deltoid region structure (body structure)" />
+			<text value="left upper arm" />
 		</coding>
 	</site>
 	<route>

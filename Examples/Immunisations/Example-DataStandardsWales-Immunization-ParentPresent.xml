@@ -26,7 +26,7 @@
 	<encounter>
 		<reference value="Encounter/Example-DataStandardsWales-GPAppointment" />
 	</encounter>
-	<occurrenceDateTime value="2024-07-29" />
+	<occurrenceDateTime value="2024-07-29T09:00" />
 	<lotNumber value="ABXB40AA" />
 	<expirationDate value="2022-07" />
 </Immunization>
